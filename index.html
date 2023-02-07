@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/20SA1109.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- CSS Lightbox -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" integrity="sha512-xkV7R5M52o5V5If/8z3+q/3Pyc08bLh/ycF9GmVxr/tLQ2zKZaPnDlz7gTXCR+aJ++fW0hXxrHtbGxrQzJjEw==" crossorigin="anonymous" />
+
+  <!-- JavaScript Lightbox -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-ZM1M2QzRZaP2vEIW9l8eLaabKbxT1Iwg1W/m8HjAdP/4zGpW/n1gCf5Givt/uo+tbNWoZvzN/NPOdnF5+LnBQ==" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/20SA1109.ico" alt="Syalafudin Firman Syah" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Syalafudin Firman Syah" style="font-size: 22px;" >Syalafudin Firman Syah </h1> 
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span style="font-size: 18px;">Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline" style="font-size: 25px;" ></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="syalafudinf@gmail.com" class="contact-link" style="font-size: 12px;"> syalafudinf@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline" style="font-size: 25px;"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telepon</p>
+
+              <a href="tel:+6287745512606" class="contact-link" style="font-size: 12px;">+6287745512606</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline" style="font-size: 25px;"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Lahir</p>
+
+              <time datetime="19-07-2001" style="font-size: 12px;">19 Juli 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline" style="font-size: 25px;"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Alamat</p>
+
+              <address style="font-size: 12px;">Sembungan, Kejajar, Wonosobo, Jawa Tengah</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link" id="facebook-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <script>
+            document.getElementById("facebook-link").addEventListener("click", function(){
+              window.open("https://web.facebook.com/profile.php?id=100006872024987");
+            });
+          </script>
+
+          <li class="social-item">
+            <a href="#" class="social-link" id="linkedin-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <script>
+            document.getElementById("linkedin-link").addEventListener("click", function(){
+              window.open("https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile");
+            });
+          </script>
+
+          <li class="social-item">
+            <a href="#" class="social-link" id="instagram-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <script>
+            document.getElementById("instagram-link").addEventListener("click", function(){
+              window.open("https://www.instagram.com/syalafudin_f/");
+            });
+          </script>
+
+          <li class="social-item">
+            <a href="#" class="social-link" id="github-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <script>
+            document.getElementById("github-link").addEventListener("click", function(){
+              window.open("https://github.com/syalafudin");
+            });
+          </script>
+
+          <li class="social-item">
+            <a herf="#" class="social-link" id="twitter-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <script>
+            document.getElementById("twitter-link").addEventListener("click", function(){
+              Window.open("https://twitter.com/syalafudin1");
+            });
+          </script>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Profil</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Saya senang mengubah dan mengmbangkan masalah kompleks menjadi desain yang sederhana, indah, intuitif, dan penuh tantangan.
+          </p>
+
+          <p>
+            Tugas saya adalah membangun situs web Anda agar berfungsi dan ramah pengguna tetapi pada saat yang sama menarik.
+            Selain itu, saya menambahkan sentuhan pribadi pada produk Anda dan memastikannya menarik dan mudah digunakan. 
+            Tujuan saya adalah menyampaikan pesan dan identitas Anda dengan cara yang paling kreatif.
+            Saya membuat desain web untuk banyak perusahaan merek terkenal.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Apa Yang Bisa Saya Kerjakan</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-cloud.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Computing</h4>
+
+                <p class="service-item-text">
+                  Cukup Memahami cloud computing dengan teknologi masa kini berbagai layanan komputasi,
+                  termasuk server, perangkat lunak, penyimpanan data, database, jaringan, 
+                  serta analitik melalui internet (cloud). 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Pengembangan situs berkualitas dan efisisen, menggunakan berbagai bahasa pemrograman PHP, Java, Python, CSS, HTML, dll, dan berbagai framework Larafel, 
+                  CodeIgniter, dll.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Memahami untuk pengembangan aplikasi Mobile Android, dengan framework flutter dan bahasa pemrograman dart.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/network.svg" alt="Network icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Network</h4>
+
+                <p class="service-item-text">
+                  Memahami sebuah sistem yang terdiri atas komputer-komputer yang didesain untuk dapat berbagi sumber daya, 
+                  berkomunikasi, dan dapat mengakses informasi secara bersama.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">testimonial project</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/syahrul.jpg" alt="syahrul" width="40" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>M Syahrul</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mengembangkan Projek Wbsite Dengan Tema Implementasi Teknologi AWS Cloud Dalam Aplikasi Reservasi Hotel Berbasis Website
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/reno.ico" alt="reno" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Reno Simanulang</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mengembangkan Projek Wbsite Dengan Tema Implementasi Teknologi AWS Cloud Dalam Aplikasi Reservasi Hotel Berbasis Website
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/shafa.ico" alt="salasabila" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Salasabila Shafa</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mengembangkan Projek Wbsite Dengan Tema Implementasi Teknologi AWS Cloud Dalam Aplikasi Reservasi Hotel Berbasis Website
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/dian.jpg" alt="dian" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dian Azmi</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mengembangkan Projek Wbsite Dengan Tema Implementasi Teknologi AWS Cloud Dalam Aplikasi Reservasi Hotel Berbasis Website
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/20SA1109.jpeg" alt="Syalafudin Firman Syah" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>data</h4>
+
+              <time datetime="2022-12-16">16 Desember, 2022</time>
+
+              <div data-modal-text>
+                <p>
+                  deskripsi
+                  </p>
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div> 
+
+
+        <!--
+          - sertifikat
+        -->
+        <section class="sertifikat">
+
+          <h3 class="h3 sertifikat-title">Sertifikasi Kompetensi</h3>
+
+          <ul class="sertifikat-list has-scrollbar">
+
+            <li class="sertifikat-item">
+              <a href="./assets/images/sertif.jpg" sertif-lightbox="sertif" sertif-title="sertif">
+                <img src="./assets/images/sertif.jpg" alt="sertif" loading="lazy">
+              </a>
+            </li>
+
+            <li class="sertifikat-item">
+              <a href="./assets/images/pkl.png" pkl-lightbox="pkl" pkl-title="pkl">
+                <img src="./assets/images/pkl.png" alt="pkl" loading="lazy">
+              </a>
+            </li>
+
+            <li class="sertifikat-item">
+              <a href="./assets/images/mtk.png" mtk-lightbox="mtk" mtk-title="mtk">
+                <img src="./assets/images/mtk.png" alt="mtk" loading="lazy">
+              </a>
+            </li>
+        </section>
+
+        <section class="sertifikat">
+
+          <h3 class="h3 sertifikat-title">Sertifikasi Penghargaan</h3>
+
+          <ul class="sertifikat-list has-scrollbar">
+
+           
+            <!-- <li class="sertifikat-item">
+              <a href="./assets/images/sertif.jpg" sertif-lightbox="sertif" sertif-title="sertif">
+                <img src="./assets/images/sertif.jpg" alt="sertif" loading="lazy">
+              </a>
+            </li>
+
+            <li class="sertifikat-item">
+              <a href="./assets/images/pkl.png" pkl-lightbox="pkl" pkl-title="pkl">
+                <img src="./assets/images/pkl.png" alt="pkl" loading="lazy">
+              </a>
+            </li> -->
+
+            <li class="sertifikat-item">
+              <a href="./assets/images/tek.png" tek-lightbox="tek" tek-title="tek">
+                <img src="./assets/images/tek.png" alt="tek" loading="lazy">
+              </a>
+            </li>
+
+            <li class="sertifikat-item">
+              <a href="./assets/images/sku.png" sku-lightbox="sku" sku-title="sku">
+                <img src="./assets/images/sku.png" alt="sku" loading="lazy">
+              </a>
+            </li>
+
+            <li class="sertifikat-item">
+              <a href="./assets/images/kpu.PNG" kpu-lightbox="kpu" kpu-title="kpu">
+                <img src="./assets/images/kpu.PNG" alt="kpu" loading="lazy">
+              </a>
+            </li>
+
+            <li class="sertifikat-item">
+              <a href="./assets/images/arsy.png" arsy-lightbox="arsy" arsy-title="arsy">
+                <img src="./assets/images/arsy.png" alt="arsy" loading="lazy">
+              </a>
+            </li>
+
+            <li class="sertifikat-item">
+              <a href="./assets/images/mmq.png" mmq-lightbox="mmq" mmq-title="mmq">
+                <img src="./assets/images/mmq.png" alt="mmq" loading="lazy">
+              </a>
+            </li>
+
+            <li class="sertifikat-item">
+              <a href="./assets/images/mmq1.png" mmq1-lightbox="mmq1" mmq1-title="mmq1">
+                <img src="./assets/images/mmq1.png" alt="mmq1" width="300">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Riwayat Pendidikan</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MI MA'ARIF Sembungan</h4>
+
+              <span>2008 — 2014</span>
+
+              <p class="timeline-text">
+                Merupakan sebuah sekolah yang berada di bawah naungan kementerian agama republik indonesia yang sekaligus juga berada di bawah yayasan Lembaga Pendidikan Ma'arif NU.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SMP N 1 Mojotengah</h4>
+
+              <span>2014 — 2017</span>
+
+              <p class="timeline-text">
+                Merupakan sekolah Adiwiyata, salah satu program Kementerian Lingkungan Hidup dalam rangka 
+                mendorong terciptanya pengetahuan dan kesadaran warga sekolah dalam upaya pelestarian lingkungan hidup.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Islamic Boarding school SMK Darul Falach Candiroto</h4>
+
+              <span>2017 — 2020</span>
+
+              <p class="timeline-text">
+                Sekolah Menengah Kejuruan yang berbasis agama islam dengan fasilitas asrama atau pesantren. Siswa yang sekolah akan tinggal jauh dari orang tua. 
+                Semua kegiatan selama di asrama sudah terjadwal dengan baik dan mendapatkan pengawasan yang cukup ketat.
+                Tentu ini akan membuat anak Anda menjadi mandiri dan akan menjadi pribadi yang beriman dan bertakwa.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Universitas Amikom Purwokerto</h4>
+
+              <span>2020 — Sekarang</span>
+
+              <p class="timeline-text">
+                Universitas Amikom Purwokerto merupakan perguruan tinggi yang berkonsentrasi dibidang Teknologi dan Bisnis Digital, Kampus berwawasan Technopreneur. Seluruh sivitas akademika memiliki ciri khusus/keunikan dalam mengoptimalkan 
+                berbagai potensi perkembangan teknologi yang ada sebagai basis pengembangan usaha yang dengan kepeduliannya itu bisa berupa 
+                pengembangan ide-ide yang ada menjadi solusi teknis teruji melalui kajian riset dan dapat diterapkan dimasyarakat luas untuk menghasilkan produk yang unggulan sebagai dasar pembangunan ekonomi berbasis pengetahuan.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Pengalaman Organisasi</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">(OSIS) Organisasi Siswa Intra Sekolah</h4>
+
+              <span></span>
+
+              <p class="timeline-text">
+                OSIS adalah satu-satunya wadah organisasi siswa yang sah di sekolah. Oleh karena itu setiap sekolah wajib membentuk Organisasi Siswa Intra Sekolah (OSIS), 
+                yang tidak mempunyai hubungan organisatoris dengan OSIS di sekolah lain dan tidak menjadi bagian/alat dari organisasi lain yang ada di luar sekolah.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">(OSDA) Organisasi Santri Darul Falach</h4>
+
+              <span></span>
+
+              <p class="timeline-text">
+                (OSDA) sebagai pengelola kegiatan santri di luar waktu sekolah yang merupakan salah satu subsistem
+                pesantren. Metode pengabdian dilakukan melalui tahapan observasi, sosialisasi, dan pelatihan. Hasil pengabdian
+                menunjukkan bahwa program pelatihan yang telah dilakukan membantu para pengurus dalam mengelola kinerja
+                melalui kejelasan visi dan misi, program kerja dalam struktur organisasi, sosialisasi budaya organisasi, dan
+                pengeloaan sumber daya manusia. Dampak dari kegiatan ini adalah para pengurus organisasi memiliki panduan
+                dan pedoman dalam bentuk program kerja dalam mengelola kinerja organisasi yang menjadi tanggungjawab para
+                pengurus.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">UKM Olahraga</h4>
+
+              <span></span>
+
+              <p class="timeline-text">
+                UKM Olahraga merupakan salah satu Unit Kegiatan 
+                Mahasiswa sebagai wadah dari mahasiswa untuk menyalurkan bakat berkonsentrasi pada peningkatan mutu pembinaan 
+                minat dan kegemaran mahasiswa dalam bidang olahraga.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">keterampilan saya</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Developer</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Pemrograman Mobile</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Networking</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud Computing</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Development Operations</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Cloud computing</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Cloud computing</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="./assets/images/linac.png" linac-lightbox="linac" linac-title="linac">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/linac.png" alt="Reservasi Hotel" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Reservasi Hotel</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="./assets/images/desa.png" desa-lightbox="desa" desa-title="desa">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/desa.png" alt="desa" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Smart Desa</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="cloud computing">
+              <a href="./assets/images/aws.png" s3-lightbox="aws" s3-title="aws">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/aws.png" alt="AWS" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Implementasi Cloud AWS</h3>
+
+                <p class="project-category">Cloud computing</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="./assets/images/Slide1.PNG" tiket-lightbox="tiket" tiket-title="tiket">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Slide1.PNG" alt="Tiket Wisata" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tiket WIsata</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <!-- <li class="project-item  active" data-filter-item data-category="cloud computing">
+              <a href="./assets/images/eb.png" eb-lightbox="eb" eb-title="eb">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/eb.png" alt="eb" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Copute AWS Elastic Beanstakl</h3>
+
+                <p class="project-category">Cloud computing</p>
+
+              </a>
+            </li> -->
+
+            <!-- <li class="project-item  active" data-filter-item data-category="cloud computing">
+              <a href="./assets/images/codepen.png" codepen-lightbox="codepen" codepen-title="codepen">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/codepen.png" alt="Deployment" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Deployment AWS CodePipeline</h3>
+
+                <p class="project-category">Cloud computing</p>
+
+              </a>
+            </li> -->
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="./assets/images/os.png" os-lightbox="os" os-title="os">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/os.png" alt="aplikasi penjualan" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Aplikasi Penjualan</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/chairos.png" alt="Studi Independen Bersertifikat" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">MSIB</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022">2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Studi Independen Bersertifikat</h3>
+
+                  <p class="blog-text">
+                    Cloud computing for Job Seekers adalah program pelatihan untuk mempersiapkan individu agar siap berkarir 
+                    di bidang teknologi cloud. Melalui pembelajaran berbasis skenario dan laboratorium langsung, 
+                    peserta pelatihan akan memperoleh keterampilan teknis yang dibutuhkan untuk posisi Cloud Engineer Pemula.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/expo.png" alt="EXPO MBKM" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">EXPO</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023">2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">EXPO MBKM</h3>
+
+                  <p class="blog-text">
+                    Event untuk mengenalkan dan memberitahu seputar MSIB kepada para mahasiswa. sebagai rantai informasi agar mahasiswa semakin tahu dan memahami yang menjadi tujuan proram .
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Kontak</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63311.005254781434!2d109.88419532786511!3d-7.360866314846265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7aa0f89c3920ef%3A0x8c0eef7d094e47ad!2sWonosobo%2C%20Wonosobo%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1674659856703!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Formulir Kontak</h3>
+
+          <form action="https://formspree.io/f/xvonzpdb" method="POST" class="form" data-form>
+          <!-- <form action="https://formsubmit.co/el/confirm/2e3534391932fd78567de802d29a9569" method="POST" class="form" data-form> -->
+          
+            
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nama lengkap" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Alamat email" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Tulis Pesan" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Kirim Pesan</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
