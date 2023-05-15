@@ -317,7 +317,7 @@
   
   .avatar-box {
     background: var(--bg-gradient-onyx);
-    border-radius: 20px;
+    border-radius: 50px;
   }
   
   .info-content .name {
@@ -733,7 +733,7 @@
   }
   
   .sertifikat-item img {
-    width: 125%;
+    width: 285px;
     transition: var(--transition-1);
     border-radius: 15px;
   }
@@ -1319,7 +1319,7 @@
   
     .sidebar-info { gap: 25px; }
   
-    .avatar-box { border-radius: 30px; }
+    .avatar-box { border-radius: 100px; }
   
     .avatar-box img { width: 120px; }
   
@@ -1456,7 +1456,7 @@
     /* sertifikat */
   
     .sertifikat-list {
-      gap: 50px;
+      gap: 150px;
       margin: 0 -30px;
       padding: 45px;
       scroll-padding-inline: 45px;
@@ -1817,7 +1817,10 @@
   
     .sidebar-info { flex-direction: column; }
   
-    .avatar-box img { width: 150px; }
+    .avatar-box img { 
+      width: 150px;
+      border-radius: 50%;
+     }
   
     .info-content .name {
       white-space: nowrap;
