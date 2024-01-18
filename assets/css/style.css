@@ -1875,7 +1875,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
-=======
+
 :root {
 
     /**
@@ -3744,4 +3744,3 @@ textarea.form-input::-webkit-resizer { display: none; }
     .timeline-text { max-width: 700px; }
   
   }
->>>>>>> 49ae73cbf252a8e1fa9ccf40562b4eedf439fa27
